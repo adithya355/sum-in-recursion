@@ -1,0 +1,14 @@
+#include<stdio.h>
+ recursion();
+int main(){
+	
+	recursion();
+}
+ recursion()
+ {
+ 	int a=0,b=0;
+	printf("enter any two numbers :");
+	scanf("%d%d",&a,&b);
+ 	printf("sum of the two numbers are :%d" ,a+b);
+ 	
+ }
